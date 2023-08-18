@@ -15,7 +15,6 @@ const person = {
   email: "john.doe@example.com",
   city: "New York",
 };
-
 function personInfo({name, age, email, city}){
     return {
         contact: `${email}, ${city}`,
